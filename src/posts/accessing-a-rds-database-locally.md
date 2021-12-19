@@ -5,6 +5,7 @@ tags: [aws, rds, database]
 ---
 
 ![](/images/platter.jpg)
+
 Elastic Beanstalk (EB) is a Platform As A Service from AWS that allows you to easily deploy applications without having to worry about setting up the base infrastructure, such as HTTP servers, or load balancers. One of the benefits of EB is that is allows us to create a database on RDS when creating a new application, making the entire deployment of an application much easier.
 
 <!-- more -->
