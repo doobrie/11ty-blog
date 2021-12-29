@@ -9,8 +9,16 @@
               <h3 class="font-base leading-tight text-600 weight-mid">
                 <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
               </h3>
+              {% if item.data.splash %}
+                <div class="post-list__image gap-top-300">
+                  <img src="{{ item.data.splash }}" alt="{{item.data.splashalt}}" loading="lazy"></img>
+                </div>
+               {% endif %}
               <p class="text-500 gap-top-300 weight-mid">
                 <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+              </p>
+              <p class="post-list__summary text-200 gap-top-300 weight-mid">
+                {{ item.data.summary }}
               </p>
             </li>
           {% endif %}

@@ -2,9 +2,10 @@
 title: Custom JDK Versions Per Project With SDKMAN!
 date: 2021-07-13
 tags: [java, jdk, sdkman]
+splash: https://davidsalterassets.s3.eu-west-2.amazonaws.com/0_l0VmVic79yh_iMa5.jpg
+splashalt: A 3D image of the word Projects
+summary: SDKMAN! allows us to easily install and use different JDKs. It can become frustrating to have to change JDK versions manually for different projects. Fortunately, SDKMAN! has a solution to this in the form of the `sdk env` command. This command allows us to define a different JDK per project which can be easily switched to, without having to remember the JDK version. Additionally, it can be configured to automatically change to the required JDK when changing directories.
 ---
-
-![](https://davidsalterassets.s3.eu-west-2.amazonaws.com/0_l0VmVic79yh_iMa5.jpg)
 
 [SDKMAN!](https://sdkman.io) allows us to easily install and use different JDKs. It can become frustrating to have to change JDK versions manually for different projects. Fortunately, SDKMAN! has a solution to this in the form of the `sdk env` command. This command allows us to define a different JDK per project which can be easily switched to, without having to remember the JDK version. Additionally, it can be configured to automatically change to the required JDK when changing directories.
 

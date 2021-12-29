@@ -2,9 +2,10 @@
 title: An Application Structure for Python REST APIs
 date: 2021-10-03
 tags: [api, flask, python]
+splash: https://davidsalterassets.s3.eu-west-2.amazonaws.com/raghav-bhasin-c3sMNpS2-Dg-unsplash.jpg
+splashalt: A picture of multicoloured flasks
+summary: In this article, I'm going to show the structure that I use for REST based APIs using Python. In Python, I use Flask to create APIs as I find this is easy to use, yet very powerful. This article isn't a tutorial on using Flask, rather I'm showcasing the project structure I currently use that allows me to develop and test Flask applications easily.
 ---
-
-![](https://davidsalterassets.s3.eu-west-2.amazonaws.com/raghav-bhasin-c3sMNpS2-Dg-unsplash.jpg)
 
 ## Introduction
 

@@ -2,9 +2,10 @@
 title: Creating a VM on Google Cloud Platform
 date: 2021-07-15
 tags: [cloud, googlecloud, vm]
+splash: https://res.cloudinary.com/davidsalter/image/upload/v1628543041/network_guyxfs.jpg
+splashalt: A picture of wiring in a network switch
+summary: Google Cloud Platform is a set of services that Google offer to customers providing different type of computing functionality, for example, Virtual Machines, Databases, Message Queues etc. These services are running on the same global infrastructure that Google uses for its products. In this article, I’ll show how to create and connect to a Virtual Machine running on the Google Cloud.
 ---
-
-![](https://res.cloudinary.com/davidsalter/image/upload/v1628543041/network_guyxfs.jpg)
 
 Google Cloud Platform is a set of services that Google offer to customers providing different type of computing functionality, for example, Virtual Machines, Databases, Message Queues etc. These services are running on the same global infrastructure that Google uses for its products. In this article, I’ll show how to create and connect to a Virtual Machine running on the Google Cloud.
 

@@ -2,9 +2,10 @@
 title: Creating A Custom Login Page With AWS Amplify
 date: 2021-08-27
 tags: [aws, amplify, security]
+splash: /images/padlock.jpg
+splashalt: A picture of a padlock
+summary: In this article, I'm going to show how to develop custom security around a page and how to protect it with a custom logon page. I'm going to be using React throughout and concentrating on the code and code flow rather than making the UI look nice (i.e., there's no CSS!).
 ---
-
-![](/images/padlock.jpg)
 
 ## Introduction
 

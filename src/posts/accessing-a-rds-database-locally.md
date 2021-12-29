@@ -2,13 +2,12 @@
 title: Accessing a RDS Database Locally
 date: 2021-08-27
 tags: [aws, rds, database]
+splash: /images/platter.jpg
+splashalt: A picture of hard disk internals
+summary: Elastic Beanstalk (EB) is a Platform As A Service from AWS that allows you to easily deploy applications without having to worry about setting up the base infrastructure, such as HTTP servers, or load balancers. One of the benefits of EB is that is allows us to create a database on RDS when creating a new application, making the entire deployment of an application much easier.
 ---
 
-![](/images/platter.jpg)
-
 Elastic Beanstalk (EB) is a Platform As A Service from AWS that allows you to easily deploy applications without having to worry about setting up the base infrastructure, such as HTTP servers, or load balancers. One of the benefits of EB is that is allows us to create a database on RDS when creating a new application, making the entire deployment of an application much easier.
-
-<!-- more -->
 
 RDS however does not provide a user interface to execute SQL against a created database (unless its been created as an Aurora Serverless Database), so how can we execute SQL commands against the database? If we were deploying our application to an EC2 instance, we could simply log onto the instance and connect directly to the database using a tool such as `mysql`. We can’t do this with EB, however, but we can connect to the database from our local PC.
 

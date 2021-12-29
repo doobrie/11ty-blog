@@ -2,9 +2,10 @@
 title: Connecting to an AWS MySQL RDS using a Bastion Host
 date: 2021-09-08
 tags: [aws, mysql, rds]
+splash: https://davidsalterassets.s3.eu-west-2.amazonaws.com/rds/bastion.jpg
+splashalt: A picture of a bastion tower
+summary: In this article, I’m going to show how to use a Bastion host which does not need us to expose the database access port (port 3306 in the case of MySQL) to the internet.
 ---
-
-![](https://davidsalterassets.s3.eu-west-2.amazonaws.com/rds/bastion.jpg)
 
 ## Introduction
 

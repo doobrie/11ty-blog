@@ -2,9 +2,10 @@
 title: Accessing Multiple Databases From a Spring Boot Application
 date: 2021-07-11
 tags: [database, java, springboot]
+splash: https://res.cloudinary.com/davidsalter/image/upload/v1628716415/0__O6IcRxOYfU2xiiD_pnjge8.jpg
+splashalt: A picture of many little wooden drawers
+summary: When developing any application, it’s quite common to have to access multiple databases. Out of the box, Spring Boot provides easy access to a single datasource, in the simplest case just by specifying the JDBC driver on the class path!
 ---
-
-![](https://res.cloudinary.com/davidsalter/image/upload/v1628716415/0__O6IcRxOYfU2xiiD_pnjge8.jpg)
 
 When developing any application, it’s quite common to have to access multiple databases. Out of the box, Spring Boot provides easy access to a single datasource, in the simplest case just by specifying the JDBC driver on the class path!
 
